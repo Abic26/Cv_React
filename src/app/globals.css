@@ -1,27 +1,23 @@
+@import "keep-react/css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.bg-blur {
+    backdrop-filter: blur(100px); /* Ajusta el valor de desenfoque según tus preferencias */
   }
+  
+  /* ToastComponent.css */
+
+/* Estilo personalizado para el Toast */
+.custom-toast .p-toast-message {
+  background: rgb(5, 0, 0) !important; /* Fondo semi-transparente negro */
+  backdrop-filter: blur(10px)!important; /* Efecto de desenfoque para navegadores que soportan esta propiedad */
+  -webkit-backdrop-filter: blur(10px)!important; /* Efecto de desenfoque para Safari */
+  border: none !important; /* Eliminar el borde si es necesario */
+  color: white; /* Color del texto */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.custom-toast .p-toast-message .p-toast-icon {
+  color: white; /* Color de los íconos si es necesario */
 }
