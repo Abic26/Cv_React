@@ -1,7 +1,8 @@
+"use client";
 import React from "react";
 import { FaHtml5 } from "react-icons/fa";
-import { IconComponent } from "./utilities/iconHabilidad";
-import { ToastComponent } from "./utilities/toast";
+import { IconComponent } from "../utilities/iconHabilidad";
+import { ToastComponent } from "../utilities/toast";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -19,7 +20,9 @@ export const SobreMiComponent = () => {
         {/* Sección sobre mí */}
         <div className="flex-1">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">SOBRE MÍ</h2>
-          <p className="text-sm lg:text-base opacity-55">
+      
+
+          <p className="text-sm lg:text-base opacity-55 pt-10">
             Como desarrollador web front-end apasionado y ambicioso, tengo un
             enfoque nítido en las tecnologías más actuales, me especializo en
             crear interfaces de usuario dinámicas y visualmente atractivas. Mi

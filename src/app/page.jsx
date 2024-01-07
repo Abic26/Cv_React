@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
-// import './globals.css'
-import { NavbarComponent } from "../app/components/navbar";
-import { HomeComponent } from "../app/components/home";
-import { SobreMiComponent } from "../app/components/sobreMi";
+import './globals.css'
+import { NavbarComponent } from "./components/utilities/navbar";
+import { HomeComponent } from "./components/sections/home";
+import { SobreMiComponent } from "./components/sections/sobreMi";
+import { ExperienciaComponent } from "./components/sections/experiencia";
 import "@/app/pages/_apps"
+
 export default function Home() {
   return (
     <div>
@@ -13,6 +15,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center">
           <HomeComponent />
           <SobreMiComponent/>
+          <ExperienciaComponent/>
         </div>
       </div>
     </div>
