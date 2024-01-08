@@ -1,6 +1,5 @@
 "use client";
-import { Button, Timeline } from "keep-react";
-import { ArrowRight } from "phosphor-react";
+import { Timeline } from "keep-react";
 import { IoCodeSlash } from "react-icons/io5";
 
 export const ExperienciaComponent = () => {
@@ -38,7 +37,7 @@ export const ExperienciaComponent = () => {
 
   return (
     <div className="min-h-screen text-white p-10 lg:p-20">
-      <h1 className="text-xl lg:text-2xl font-bold mb-16">
+      <h1 className="text-xl lg:text-2xl font-bold mb-16 hover:text-red-300 cursor-default">
         Experiencia Laboral
       </h1>
       <Timeline className="">
@@ -47,12 +46,12 @@ export const ExperienciaComponent = () => {
             <Timeline.Point></Timeline.Point>
             <Timeline.Content>
               {item.company && (
-                <Timeline.Time className="flex gap-2 items-center opacity-55">
+                <Timeline.Time className="flex gap-2 items-center hover:text-red-300 opacity-55 hover:opacity-100 cursor-default">
                   {item.company}
                   {item.icon}
                 </Timeline.Time>
               )}
-              <Timeline.Title>{item.title}</Timeline.Title>
+              <Timeline.Title className="hover:text-red-300 cursor-default">{item.title}</Timeline.Title>
               <Timeline.Body className="opacity-55 text-sm">{item.body}</Timeline.Body>
             </Timeline.Content>
           </Timeline.Item>

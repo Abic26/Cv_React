@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export const NavbarComponent = () => {
   return (
-    <Navbar fluid={true} className="bg-transparent fixed top-0 left-0 right-0 z-50 ">
+    <Navbar fluid={true} className="bg-transparent fixed top-0 left-0 right-0 z-50  backdrop-blur-lg">
       <Navbar.Container className="flex items-center justify-between pt-2">
         <Navbar.Container
           tag="ul"
