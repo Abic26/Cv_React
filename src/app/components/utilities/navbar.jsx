@@ -66,7 +66,7 @@ export const NavbarComponent = () => {
               iconAnimation={false}
             />
           </Navbar.Container>
-          <Navbar.Toggle className="text-white opacity-100 hover:opacity-40" />
+          <Navbar.Toggle className="text-white opacity-100 hover:opacity-40 backdrop-blur-lg" />
         </Navbar.Container>
       </Navbar.Container>
     </Navbar>

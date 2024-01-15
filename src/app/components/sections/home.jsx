@@ -3,8 +3,8 @@ import { Avatar } from "keep-react";
 export const HomeComponent = () => {
   return (
     <div className="text-white bg-opacity-80 min-h-screen flex justify-end items-center ">
-       <div className="px-6 container mx-auto flex flex-col lg:flex-row flex-wrap justify-start items-center absolute inset-0 md:pt-72 lg:pb-96">
-        <div className="text-center lg:text-left w-full lg:max-w-3xl">
+       <div className="px-6 container mx-auto flex flex-col lg:flex-row flex-wrap justify-start items-center md:relative lg:absolute lg:inset-0 md:pt-72 lg:pb-96">
+        <div className="text-center lg:text-left w-full lg:max-w-5xl">
           <div className="flex justify-start ml-2">
             <Avatar className="" shape="circle" size="xl"  img="./abic_ai.png"/>
 
