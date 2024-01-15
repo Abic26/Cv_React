@@ -36,7 +36,7 @@ export const ExperienciaComponent = () => {
   ];
 
   return (
-    <div className="min-h-screen text-white p-10 lg:p-20">
+    <div id="experiencia" className="min-h-screen text-white p-10 lg:p-20">
       <h1 className="text-xl lg:text-2xl font-bold mb-16 hover:text-red-300 cursor-default">
         Experiencia Laboral
       </h1>

@@ -156,7 +156,7 @@ export const ProyectosComponents = () => {
 
   const templateData = (project) => {
     return (
-      <div className="flex flex-col items-center justify-center p-4 border-1 surface-border border-round my-2 text-center gap-10 md:pt-72  flex-wrap">
+      <div id="proyectos" className="flex flex-col items-center justify-center p-4 border-1 surface-border border-round my-2 text-center gap-10 md:pt-72  flex-wrap">
         <div className=" flex items-center mb-4 justify-center">
           {project.icon}
         </div>

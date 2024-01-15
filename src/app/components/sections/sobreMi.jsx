@@ -15,7 +15,7 @@ import { FaGithub } from "react-icons/fa";
 
 export const SobreMiComponent = () => {
   return (
-    <div className="min-h-screen text-white p-10 lg:p-20">
+    <div id="sobremi" className="min-h-screen text-white p-10 lg:p-20">
       <div className="flex flex-col pt-54 lg:flex-row justify-between gap-14 lg:gap-24">
         {/* Sección sobre mí */}
         <div className="flex-1">

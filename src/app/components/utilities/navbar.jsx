@@ -13,10 +13,10 @@ export const NavbarComponent = () => {
           tag="ul"
           className="lg:flex hidden items-center justify-between gap-8 pl-20"
         >
-          <Navbar.Link className="text-white opacity-45 hover:opacity-100" linkName="Home"/>
-          <Navbar.Link className="text-white opacity-45 hover:opacity-100" linkName="Sobre mi"/>
-          <Navbar.Link className="text-white opacity-45 hover:opacity-100" linkName="Experiencia"/>
-          <Navbar.Link className="text-white opacity-45 hover:opacity-100" linkName="Proyectos"/>
+          <Navbar.Link href="#home"  className="text-white opacity-45 hover:opacity-100" linkName="Home"/>
+          <Navbar.Link href="#sobremi"  className="text-white opacity-45 hover:opacity-100" linkName="Sobre mi"/>
+          <Navbar.Link href="#experiencia" className="text-white opacity-45 hover:opacity-100" linkName="Experiencia"/>
+          <Navbar.Link  href="#proyectos" className="text-white opacity-45 hover:opacity-100" linkName="Proyectos"/>
 
 
         </Navbar.Container>
@@ -24,10 +24,10 @@ export const NavbarComponent = () => {
 
         <Navbar.Collapse collapseType="sidebar" className="bg-transparent text-white">
           <Navbar.Container tag="ul" className="flex flex-col gap-5">
-          <Navbar.Link className="opacity-50 hover:opacity-100" linkName="Home"/>
-          <Navbar.Link className="opacity-50 hover:opacity-100" linkName="Sobre mi"/>
-          <Navbar.Link className="opacity-50 hover:opacity-100" linkName="Experiencia"/>
-          <Navbar.Link className="opacity-50 hover:opacity-100" linkName="Proyectos"/>
+          <Navbar.Link href="#home"  className="opacity-50 hover:opacity-100" linkName="Home"/>
+          <Navbar.Link href="#sobremi"  className="opacity-50 hover:opacity-100" linkName="Sobre mi"/>
+          <Navbar.Link href="#experiencia"  className="opacity-50 hover:opacity-100" linkName="Experiencia"/>
+          <Navbar.Link href="#proyectos"  className="opacity-50 hover:opacity-100" linkName="Proyectos"/>
           <Navbar.Container
             tag="ul"
             className="flex items-center justify-around pt-2"
