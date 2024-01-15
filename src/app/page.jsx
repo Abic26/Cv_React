@@ -5,6 +5,8 @@ import { NavbarComponent } from "./components/utilities/navbar";
 import { HomeComponent } from "./components/sections/home";
 import { SobreMiComponent } from "./components/sections/sobreMi";
 import { ExperienciaComponent } from "./components/sections/experiencia";
+import { ProyectosComponents } from "./components/sections/proyectos";
+
 import "@/app/pages/_apps"
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
           <HomeComponent />
           <SobreMiComponent/>
           <ExperienciaComponent/>
+          <ProyectosComponents/>
         </div>
       </div>
     </div>
