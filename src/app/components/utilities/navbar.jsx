@@ -36,7 +36,7 @@ export const NavbarComponent = () => {
               icon={<FaGithub size={25} />}
               iconAnimation={false}
             />
-            <Navbar.Link className="opacity-50 hover:opacity-100" href="Andres_Felipe_Lopez_S._FULLSTACK.pdf" download
+            <Navbar.Link className="opacity-50 hover:opacity-100" href="CV_Andres_Felipe_Lopez_S.pdf" download
               icon={<IoDocumentAttach  size={25} />}
               iconAnimation={false}
             />
@@ -57,7 +57,7 @@ export const NavbarComponent = () => {
               icon={<FaGithub  size={25}  />}
               iconAnimation={false}
             />
-            <Navbar.Link className="text-white hover:text-red-300 opacity-50 hover:opacity-100" href="Andres_Felipe_Lopez_S._FULLSTACK.pdf" download
+            <Navbar.Link className="text-white hover:text-red-300 opacity-50 hover:opacity-100" href="CV_Andres_Felipe_Lopez_S.pdf" download
               icon={<IoDocumentAttach   size={25}  />}
               iconAnimation={false}
             />

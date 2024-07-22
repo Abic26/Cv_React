@@ -12,8 +12,8 @@ export const HomeComponent = () => {
           <h1 className="text-6xl lg:text-8xl font-bold text-bunker-100">
             Andres F<span className="text-red-300">.</span> Lopez
           </h1>
-          <h2 className="text-bunker-200 mt-2 text-xl md:text-2xl lg:text-4xl font-medium">
-            Programador Web <span className="mx-auto text-red-300">{"<"}</span> Front End <span className="mx-auto text-red-300">{"/>"}</span>
+          <h2 className="text-bunker-200 mt-3 text-xl md:text-2xl lg:text-4xl font-medium">
+            Desarrollador Web <span className="mx-auto text-red-300">{"<"}</span> Front End & Rpa <span className="mx-auto text-red-300">{"/>"}</span>
           </h2>
           <p className="mt-4 opacity-45">
           Soy artífice digital que combina diseño y tecnología para crear experiencias web fascinantes e inolvidables. Permiteme convertir tus ideas en realidades digitales que cautivan y funcionan a la perfección.

@@ -20,7 +20,6 @@ export const SobreMiComponent = () => {
         {/* Sección sobre mí */}
         <div className="flex-1">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">SOBRE MÍ</h2>
-      
 
           <p className="text-sm lg:text-base opacity-55 pt-10">
             Como desarrollador web front-end apasionado y ambicioso, tengo un
@@ -101,7 +100,13 @@ export const SobreMiComponent = () => {
               </IconComponent>
             </ToastComponent>
 
-            <ToastComponent severity="" summary="REACT" detail={""}>
+            <ToastComponent
+              severity=""
+              summary="REACT"
+              detail={
+                "Como Front-End Junior, aplico React para crear interfaces de usuario interactivas y dinámicas. Utilizo React para mejorar la experiencia del usuario, manejar datos en tiempo real y facilitar la actualización y renderizado de elementos en la página web de manera eficiente. Con React, puedo reutilizar componentes, implementar un estado reactivo en la interfaz y trabajar en colaboración con el Back-End para desarrollar aplicaciones web modernas y de alto rendimiento."
+              }
+            >
               <IconComponent name={"REACT"}>
                 <FaReact size={25} />
               </IconComponent>
@@ -156,42 +161,43 @@ export const SobreMiComponent = () => {
             </ToastComponent>
           </div>
         </div>
-        {/* <div className="flex-1">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">EDUCACIÓN</h2>
-          <p className="text-sm lg:text-base opacity-55">
-            Mi Formacion Academica y Autonoma como desarrollador Frontend, actuamente estudio ingenieria de software.
+      </div>
+      <div className="flex flex-col justify-center items-start mt-8">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-6">EDUCACIÓN</h2>
+        <p className="text-sm lg:text-base opacity-55">
+          Mi Formacion Academica y Autonoma como desarrollador Frontend,
+          actuamente estudio ingenieria de software.
+        </p>
+        <br />
+        <div className="text-sm lg:text-base">
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+            &#187; Desarrollador FullStack - Básico e Intermedio(Universidad
+            Distrital José Francisco De Caldas )
           </p>
-          <br />
-          <div className="text-sm lg:text-base">
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
-              &#187; Desarrollador FullStack - Básico e Intermedio(Universidad
-              Distrital José Francisco De Caldas )
-            </p>
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
             &#187; Curso Desarrollo web Modulo (1/2) (2/2) (Google Actívate)
-            </p>
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
-              &#187; Universidad Desarrollo web-FrontEnd Web Developer(bootcamp
-              Udemy-Ing. Ubaldo Acosta)
-            </p>
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
-              &#187; Universidad JavaScript - De Cero a Experto
-              JavaScript(bootcamp Udemy-Ing. Ubaldo Acosta)
-            </p>
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
-              &#187; Vue desde Cero(bootcamp Udemy-Yirsis Serrano Administrador
-              en T.I. y Fullstack Developer)
-            </p>
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
-              &#187; Vue.js - Intermedio(bootcamp Udemy-Fernando Herrera A
-              Full-Stack Developer & Teacher)
-            </p>
-            <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
-              &#187; CSS La Guía Completa - Flexbox, CSS Grid, SASS(bootcamp
-              Udemy-Juan Pablo De la torre Valdez)
-            </p>
-          </div>
-        </div> */}
+          </p>
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+            &#187; Universidad Desarrollo web-FrontEnd Web Developer(bootcamp
+            Udemy-Ing. Ubaldo Acosta)
+          </p>
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+            &#187; Universidad JavaScript - De Cero a Experto
+            JavaScript(bootcamp Udemy-Ing. Ubaldo Acosta)
+          </p>
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+            &#187; Vue desde Cero(bootcamp Udemy-Yirsis Serrano Administrador en
+            T.I. y Fullstack Developer)
+          </p>
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+            &#187; Vue.js - Intermedio(bootcamp Udemy-Fernando Herrera A
+            Full-Stack Developer & Teacher)
+          </p>
+          <p className="p-2 text-white hover:text-red-300 opacity-55 hover:opacity-100">
+            &#187; CSS La Guía Completa - Flexbox, CSS Grid, SASS(bootcamp
+            Udemy-Juan Pablo De la torre Valdez)
+          </p>
+        </div>
       </div>
     </div>
   );

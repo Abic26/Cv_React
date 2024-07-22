@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import './globals.css'
+import "./globals.css";
 import { NavbarComponent } from "./components/utilities/navbar";
 import { HomeComponent } from "./components/sections/home";
 import { SobreMiComponent } from "./components/sections/sobreMi";
 import { ExperienciaComponent } from "./components/sections/experiencia";
 import { ProyectosComponents } from "./components/sections/proyectos";
 
-import "@/app/pages/_apps"
+import "@/app/pages/_apps";
 
 export default function Home() {
   return (
@@ -16,9 +16,14 @@ export default function Home() {
         <NavbarComponent />
         <div className="flex flex-col justify-center items-center">
           <HomeComponent />
-          <SobreMiComponent/>
-          <ExperienciaComponent/>
-          <ProyectosComponents/>
+          <SobreMiComponent />
+          <ExperienciaComponent />
+          <ProyectosComponents />
+        </div>
+        <div className="flex justify-center pt-10">
+          <span className="text-white text-center">
+            Copyright © 2024 AbicDev, Todos los derechos Reservados.
+          </span>
         </div>
       </div>
     </div>
