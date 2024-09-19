@@ -190,6 +190,22 @@ export const ProyectosComponentsCarousel = () => {
 
   return (
     <div>
+      <h3 className=" text-start text-3xl lg:text-4xl font-bold pt-16 hover:text-red-200 hover:cursor-default">
+        Proyectos & Github
+      </h3>
+      <br />
+      <br />
+      <span className=" opacity-55 w-auto">
+        En este apartado, encontrarás ejemplos de código desarrollado por mí,
+        disponibles en mi perfil de GitHub. Los proyectos abarcan una variedad
+        de tecnologías y frameworks, mostrando mi capacidad para adaptarme a
+        diferentes entornos de desarrollo y mi enfoque en crear soluciones
+        eficientes y bien estructuradas. Te invito a explorar mis repositorios y
+        proyectos para conocer más sobre mi trabajo y experiencia en el
+        desarrollo web:
+      </span>
+      <br />
+      <br />
       <Carousel
         value={data}
         itemTemplate={templateData}
