@@ -11,15 +11,15 @@ export const ProyectosComponentsCarousel = () => {
         <Avatar
           shape="rounded "
           className="w-60 h-60"
-          img="./proyectos/todo.png"
+          img="./proyectos/componente.png"
           alt="Proyecto 1"
         />
       ),
-      title: "Mis Repositorio",
-      text: "Aquí puedes acceder a mi repositorio de GitHub, donde encontrarás una variedad de proyectos desarrollados, incluyendo desafíos profesionales y personales.",
+      title: "Creacion de Componentes",
+      text: "Mi experiencia me permite crear componentes de interfaz de usuario (UI) visualmente atractivos, siguiendo principios de experiencia de usuario (UX) para optimizar y mejorar la funcionalidad de los sitios web.",
       github: (
-        <a href="https://github.com/Abic26" target="_blank">
-          <FaGithub size={30} />
+        <a href="https://prueba-pantera.vercel.app/" target="_blank">
+          <FaChrome size={30} />
         </a>
       ),
     },
@@ -142,7 +142,24 @@ export const ProyectosComponentsCarousel = () => {
         </a>
       ),
     },
-    
+    {
+      icon: (
+        <Avatar
+          shape="rounded "
+          className="w-60 h-60"
+          img="./proyectos/todo.png"
+          alt="Proyecto 1"
+        />
+      ),
+      title: "Mis Repositorio",
+      text: "Aquí puedes acceder a mi repositorio de GitHub, donde encontrarás una variedad de proyectos desarrollados, incluyendo desafíos profesionales y personales.",
+      github: (
+        <a href="https://github.com/Abic26" target="_blank">
+          <FaGithub size={30} />
+        </a>
+      ),
+    },
+
     // Agrega más objetos según sea necesario
   ];
 

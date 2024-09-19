@@ -6,6 +6,7 @@ import { HomeComponent } from "./components/sections/home";
 import { SobreMiComponent } from "./components/sections/sobreMi";
 import { ExperienciaComponent } from "./components/sections/experiencia";
 import { ProyectosComponents } from "./components/sections/proyectos";
+import { ProyectosWpComponents } from "./components/sections/proyectoswp";
 
 import "@/app/pages/_apps";
 
@@ -18,7 +19,9 @@ export default function Home() {
           <HomeComponent />
           <SobreMiComponent />
           <ExperienciaComponent />
+          <ProyectosWpComponents />
           <ProyectosComponents />
+
         </div>
         <div className="flex justify-center pt-10">
           <span className="text-white text-center">

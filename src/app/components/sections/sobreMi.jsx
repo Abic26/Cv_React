@@ -162,7 +162,7 @@ export const SobreMiComponent = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-start mt-8">
+      <div className="flex flex-col justify-center items-center mt-12">
         <h2 className="text-3xl lg:text-4xl font-bold mb-6">EDUCACIÓN</h2>
         <p className="text-sm lg:text-base opacity-55">
           Mi Formacion Academica y Autonoma como desarrollador Frontend,
