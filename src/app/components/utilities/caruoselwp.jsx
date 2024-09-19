@@ -9,7 +9,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/elite.png"
           alt="Proyecto 1"
@@ -25,7 +25,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/quick.png"
           alt="Proyecto 1"
@@ -41,7 +41,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/batinachicago.png"
           alt="Proyecto 1"
@@ -57,7 +57,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/botanicaamor.png"
           alt="Proyecto 1"
@@ -73,7 +73,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/santeria.png"
           alt="Proyecto 1"
@@ -89,7 +89,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/secreto.png"
           alt="Proyecto 1"
@@ -105,7 +105,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/virgen.png"
           alt="Proyecto 1"

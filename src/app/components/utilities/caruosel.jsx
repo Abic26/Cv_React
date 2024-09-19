@@ -9,7 +9,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/componente.png"
           alt="Proyecto 1"
@@ -145,7 +145,7 @@ export const ProyectosComponentsCarousel = () => {
     {
       icon: (
         <Avatar
-          shape="rounded "
+          shape="rounded"
           className="w-60 h-60"
           img="./proyectos/todo.png"
           alt="Proyecto 1"
