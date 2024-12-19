@@ -19,7 +19,7 @@ export default function Home() {
           <HomeComponent />
           <SobreMiComponent />
           <ExperienciaComponent />
-          <ProyectosWpComponents />
+          {/* <ProyectosWpComponents /> */}
           <ProyectosComponents />
 
         </div>
